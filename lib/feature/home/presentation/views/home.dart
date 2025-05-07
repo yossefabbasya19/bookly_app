@@ -27,7 +27,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(body: Column(children: [
       CustomAppBar(),
-      //CustomCarouselSliderListView()
+      CustomCarouselSliderListView()
     ]
     ));
   }
