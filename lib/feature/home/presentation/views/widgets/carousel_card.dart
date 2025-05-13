@@ -10,7 +10,7 @@ class CarouselCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      margin: EdgeInsets.only(right: 15),
+      margin: EdgeInsets.only(left: 15),
       width: MediaQuery.sizeOf(context).width * 0.344,
       height: MediaQuery.sizeOf(context).height * 0.2758620689655172,
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(16)),

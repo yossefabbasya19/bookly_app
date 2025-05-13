@@ -11,7 +11,6 @@ class CustomCarouselSliderListView extends StatefulWidget {
 
 class _CustomCarouselSliderListViewState
     extends State<CustomCarouselSliderListView> {
-  List<int> s = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +18,7 @@ class _CustomCarouselSliderListViewState
       height: MediaQuery.sizeOf(context).height * 0.2758620689655172,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: s.length,
+        //itemCount: s.length,
         itemBuilder: (context, index) {
           return CarouselCard();
         },
